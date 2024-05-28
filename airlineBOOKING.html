@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking-AirLine</title>
+    <link rel="stylesheet" href="airlineBOOKING.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   
+</head>
+
+<body>
+    <div class="container"> </div> <!--container-->
+    <form class="form-groupe"> <!--form-->
+        
+        <h1 class="text-center"> AirLine Booking Form</h1>
+
+        <div id="form"> <!--form-->
+
+            <div id="input5"> <!--input5-->
+                <h3 class="text-white">Personal Details</h3>
+            </div> <!--input5-->
+            
+            <div id="input6"><!--input6-->
+    <input type="text" id="input-group" placeholder="Full Name">
+    <input type="number" id="input-group" placeholder="Phone Number">
+    <input type="email" id="input-group" placeholder="Your Email">
+
+</div><!--input6--> <br><br>
+           
+<h3 class="text-white"> Booking-Details</h3>
+       
+    <div id="input" > <!--input-->
+        
+        <select id="input-group" style="background: transparent;"> >
+            <option>from<option> <!--WE NEED TO PUT OPTION-->
+            <option value="New York">New York</option>
+            <option value="Los Angeles">Los Angeles</option>
+            <option value="Chicago">Chicago</option>
+
+        </select>
+
+        <select id="input-group" style="background: transparent;">
+            <option value="">To</option> <!--WE NEED TO PUT OPTION-->
+            <option value="London">London</option>
+            <option value="Paris">Paris</option>
+            <option value="Tokyo">Tokyo</option>
+
+        </select>
+    
+
+    <script src="script.js"></script>
+
+   
+     <div  id="input2"> <!--input2-->
+        <input type="" id="input-group" placeholder="Adult">
+        <input type="" id="input-group" placeholder="Children(2-11years)">
+        <input type="" id="input-group" placeholder="infant(under 2years)">
+     </div> <!--input2-->
+
+    <div id="input3" ><!--input3--> 
+        <span  class="text-sprimary" id="fare"><b>Select Your Fare:</b></span> 
+       
+        <input type="radio" id="input-group" name="r" value="one way" > 
+     <label class="text-white" for="input-group" >One Way</label>
+       
+        <input type="radio" id="input-group" name="r" value="round trip"> 
+    <label class="text-white" for="input-group" >Round Trip</label>
+   </div> <!--input3--> 
+
+   <div id="input3" ><!--input3--> 
+    <span  class="text-sprimary" id="fare"><b>Select Your Class:</b></span> 
+   
+    <input type="radio" id="input-group" name="s" value="First Class " > 
+ <label class="text-white" for="input-group" >First Class</label>
+   
+    <input type="radio" id="input-group" name="s" value="Premium Economy"> 
+<label class="text-white" for="input-group" >Premium Economy</label>
+
+    <input type="radio" id="input-group" name="s" value="Economy"> 
+<label class="text-white" for="input-group" >Economy</label>
+
+<input type="radio" id="input-group" name="s" value="Business"> 
+<label class="text-white" for="input-group" >Business</label>
+
+</div> <!--input3--> 
+   
+
+<div id="input4"> <!--input4-->
+     <h3 class="text-white" >Departure: date & time </h3> 
+        <input type="date" id="input-group" placeholder="Return Date">
+        <input type="time" id="input-group" placeholder="Return Time">
+        <input type="text" id="input-group1" placeholder="Any message">
+</div><!--input4-->
+<br><br><br>
+<div id="input4"> <!--input4-->
+    <h3 class="text-white" id="DT">Return: date & time </h3> 
+       <input type="date" id="input-group" placeholder="Return Date">
+       <input type="time" id="input-group" placeholder="Return Time">
+       <input type="text" id="input-group1" placeholder="Any message">
+</div><!--input4-->
+
+<br><br>
+<h3 class="text-white"> Price</h3>
+<div id="input" > <!--input-->
+        
+
+    <div id="input-group" style="background: transparent;">
+        
+   </div>
+
+</div>
+
+<!--JAVASCRIPT CODE-->
+<script>
+function searchFlights() {
+    var from = document.getElementById("from").value;
+    var to = document.getElementById("to").value;
+
+    // Simulated flight prices
+    var prices = {
+        "New York-London": 500,
+        "New York-Paris": 600,
+        "New York-Tokyo": 900,
+        "Los Angeles-London": 700,
+        "Los Angeles-Paris": 800,
+        "Los Angeles-Tokyo": 1000,
+        "Chicago-London": 550,
+        "Chicago-Paris": 650,
+        "Chicago-Tokyo": 950,
+    };
+
+    var route = from + "-" + to;
+    var price = prices[route];
+
+    if (price) {
+        document.getElementById("results").innerHTML = "Price for " + route + ": $" + price;
+    } else {
+        document.getElementById("results").innerHTML = "No flights found for selected route";
+    }
+}
+</script>
+
+<!--JAVASCRIPT CODE-->
+
+
+<br><br><br>
+<button onclick="searchFlights()" class="btn-primary" id="btn">Submit</button>
+<div id="results"></div>
+
+<script src="script.js"></script>
+
+<button type="reset" class="btn-primary" id="btn">Reset</button>
+
+</div> <!--form-->
+    
+</form>
+  </div>  <!--container-->
+
+</body>
+</html>

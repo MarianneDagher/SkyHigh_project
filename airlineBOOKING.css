@@ -1,0 +1,161 @@
+body{
+    background: url("https://ischoolconnect.com/blog/wp-content/uploads/2022/08/online-booking.jpg");
+    background-size: cover;
+    background-position: center; 
+    backdrop-filter: blur(2px);
+}
+
+#form{
+    background: transparent;
+    height:990px;
+    width: 700px;
+    margin: auto;
+    padding: 20px;
+    opacity: 0.7;
+    backdrop-filter: blur(100px);
+    background-color: rgba(68, 68, 68, 0.319);
+}
+
+.text-center{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
+
+}
+
+
+#form h3{
+    border-bottom: 2px solid rgb(0, 0, 83);
+    width: 210px ;
+    padding: 10px;
+    color: darkblue;
+    padding: 5px;
+}
+
+::placeholder{
+    color:   rgb(0, 0, 0) ;
+
+}
+
+
+#input  #input-group{
+    width: 300px;
+    margin: 5px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color:  black;
+    border-bottom: 2px solid lightblue;
+    padding: 15px;
+    position: center;
+    
+}
+
+#input2  #input-group{
+    width: 195px;
+    margin: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent ;
+    padding: 12px;
+    position: center;
+    border-color: lightblue;
+}
+
+#input3{
+    text-align: start;
+    width: none;
+    height: 30px;
+    padding: 15px;
+    color: black;
+    font-size: small;
+    display: flex;
+}
+ 
+#input3 #fare{
+    color: darkblue ;
+}
+
+
+#input3  #input-group{
+    margin-left: 50px;
+
+}
+
+#input4  #input-group{
+    width: 200px;
+    margin: 7px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent ;
+    padding: 5px;
+    position: center;
+    color: black;
+    border-color: lightblue;
+
+}
+
+#input4  #input-group1{
+    width: 200px;
+    margin: 7px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent ;
+    padding: 5px;
+    position: center;
+    border-color: lightblue;
+    
+}
+
+#input5  h3{
+    border-bottom: 2px solid rgb(0, 0, 86);
+    width: 220px ;
+    padding: 20px;
+    color:  darkblue;
+    padding: 5px;
+}
+
+#input6 #input-group{
+    width: 200px;
+    margin: 7px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent ;
+    padding: 5px;
+    position: center;
+    border-color: lightblue;
+}
+
+
+ #input4  #h3input4{
+    color: darkblue;
+    
+}
+
+#input4 #d-t {
+    color: darkblue;
+    
+}
+
+#btn{
+    width: 25%;
+    height: 25px;
+    background: #c9c9c9;
+    border: none;
+    outline: none;
+    border-radius: 25px;   
+    box-shadow:0 0 5px lightblue ;
+    cursor: pointer;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 595;
+}
+

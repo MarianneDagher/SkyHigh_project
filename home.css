@@ -1,0 +1,217 @@
+.logo{
+    font-size: 50px !important;
+    color:lightblue;
+}
+
+.comp-name{
+    color:lightblue !important;
+}
+
+.bg-dark{
+    background-color:rgb(51, 51, 160)!important;
+}
+
+
+.links{
+    padding-left: 40px !important;
+    text-decoration: none;
+    font-size: 20px ;
+    color:white;
+}
+
+.links:hover{
+ color:gold;
+ font-family: cursive;
+}
+
+.links:active{
+ color:blue ;
+}
+
+.pic-sec{
+    background-image:url("https://images4.alphacoders.com/286/thumb-1920-286536.jpg");
+    background-repeat:no-repeat;
+    background-size: cover !important;
+    
+}
+
+.parag{
+    margin-left:100px;
+    margin-bottom: 70px;
+    margin-top: 150px;
+    font-size:40px;
+    color:beige;
+    text-shadow:2px 2px 2px blue;
+   
+}
+
+#button{
+    margin-left: 200px ;
+    color: white;
+    border-color: white;
+    margin-bottom: 250px;
+
+}
+
+#button:hover{
+    background-color:lightblue;
+    color:blue;
+    border-color: blue;
+}
+
+
+.first-sec-item{
+    padding: 4%  5%;
+}
+
+
+/*Feature section*/
+
+
+
+.feature-box{
+ padding:10% 3%;
+ background-color:rgb(51, 51, 160);
+ border: dashed beige;
+}
+
+.icons{
+    font-size: 50px;
+    color:beige;
+    margin-bottom:5px;
+
+}
+
+.icons:hover{
+   color:lightblue;
+}
+
+.feature-title{
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: beige;
+    
+}
+
+.feature-par{
+    font-size:20px ;
+    color:beige;
+}
+
+
+/*Offers*/
+
+.text{
+    font-size:20px;
+    margin-left:20px;
+
+}
+#container-sec{
+    padding: 2% ;
+    background-color:white;
+    display:flex;
+}
+
+.container-sec{
+   background-color: lightblue;
+   padding:2%;
+   border:solid gray;
+   border-radius: 25px;
+   margin-bottom:2%;
+   
+}
+
+
+.image{
+      width:50%;
+      height:50%;
+      margin-top:7%;
+}
+
+/*explore*/
+
+.slide{
+    padding: 1% 3%;
+}
+
+.explore-box{
+    border: solid black;
+    border-radius: 5%;
+    padding:3%;
+    background-color: lightgrey;
+}
+/*Attraction*/
+.box{
+  padding: 1%;
+  
+}
+
+.attractionImg{
+  width:100%;
+  height:25%;
+}
+
+.img{
+    text-align: center;
+}
+
+/*reviews*/
+
+.LightBlueSec{
+padding:5%;
+background-color: lightblue;
+}
+
+
+.yellow{
+    color:darkgoldenrod;
+
+}
+.block{
+    display:block;
+}
+
+.prg{
+    width:70%;
+}
+.reviewBox{
+    width:200%;
+}
+
+.block{
+    width:50%;
+}
+
+
+/*testemonials*/
+
+.comments{
+    border: solid black;
+    padding:3%;
+  
+}
+
+
+
+
+
+/*footer*/
+
+
+.icons2{
+    color:lightblue;
+    font-size: 35px;
+    
+}
+
+.footer-sec{
+    background-color: beige;
+    padding:3%;
+}
+
+.footer{
+    text-align:center;
+    margin:auto;
+
+}
+

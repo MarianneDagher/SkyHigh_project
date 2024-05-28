@@ -1,0 +1,88 @@
+
+/*nav bar*/
+
+.bg-light{
+    background-color:lightskyblue!important;
+}
+
+.logo{
+    font-size: 50px;
+    color:grey
+}
+
+.comp-name{
+    color:grey;
+}
+
+
+/* 1st-sec*/
+
+#pg-title{
+    text-align: center;
+    color:grey;
+    
+}
+
+#text{
+    text-align: center;
+    color:grey;
+}
+
+
+#item-sec-title{
+    color: grey;
+    margin-left: 20px;
+}
+
+#item-sec-text{
+    color:grey;
+    margin-left: 20px;
+}
+
+
+
+/*Forbidden items*/
+
+.Items-title{
+    color:cornflowerblue;
+}
+
+.sec-title{
+    text-align: center;
+    color:beige;
+    font-size:35px;
+}
+
+.lgBlue-sec{
+ background-color:lightblue;
+}
+
+
+/*carry-on items*/
+
+.lgSkyBlue-sec{
+    background-color: lightskyblue;
+}
+
+
+
+
+
+.items{
+    padding:2% 5%;
+}
+
+
+
+/*Button*/
+
+#button{
+    color:grey;
+    border-color:grey;
+    margin:  3% 45%;
+}
+
+#button:hover{
+    color:beige;
+    border-color:beige;
+}

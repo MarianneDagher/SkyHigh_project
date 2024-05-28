@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("https://akm-img-a-in.tosshub.com/indiatoday/images/story/202207/patrick-tomasso-j1dj50Td7CQ-un_1200x768.jpeg?VersionId=QGedLGybSY.vLaARJWxzhyvFvY0Qnwx6&size=690:388") no-repeat;
+    background-size: cover;
+    background-position: center;   
+}
+
+.wrapper{
+    width: 750px;
+    background-color: #8989895c;
+    border-radius: 10px;
+    color: black;
+    padding: 40px 35px 55px;
+    border-radius: 2px solid #000000;
+    box-shadow: #333;
+    backdrop-filter: blur(1px);
+}
+
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.wrapper  .input-box{
+    display: flex;
+    justify-content:space-between ;
+    flex-wrap:wrap;
+    justify-content:center;
+    
+}
+
+.input-box .input-field{
+    position: relative;
+    width: 48%;
+    height: 50px;
+    margin: 13px 0;
+}
+
+.input-box .input-field input{
+    width:80%;
+    height: 70%;
+    background: transparent;
+    border: transparent;
+    outline: none;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    border-radius: 6px;
+    padding: 15px 15px 15px 40px;
+    text-align: center;
+    backdrop-filter: blur(50px);
+}
+
+.input-box .input-field input::placeholder{
+    color: #000000;
+    text-align: center;
+    text-shadow: #000000;
+}
+
+.input-box .input-field i{
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+
+
+.wrapper label{
+    display: inline-block;
+    font-size: 14.5px;
+    margin: 10px 0 23px;
+    
+}
+
+.wrapper label input{
+    accent-color: #000000;
+    margin-right: 5px;
+}
+
+
+.wrapper .btn {
+   width: 100%;
+   height: 45px;
+   background: #c9c9c9b8;
+   border: none;
+   outline: none;
+   border-radius: 6px;   
+   box-shadow:0 0 10px rgba(0,0,0, .1) ;
+   cursor: pointer;
+   font-size: 16px;
+   color: #000000;
+   font-weight: 600;
+}

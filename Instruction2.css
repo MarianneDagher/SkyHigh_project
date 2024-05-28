@@ -1,0 +1,79 @@
+/*nav bar*/
+
+.bg-light{
+    background-color: transparent !important;
+}
+
+.logo{
+    color:darkblue;
+    font-size: 50px;
+}
+
+.comp-name{
+    color:darkblue;
+}
+
+
+ /* 1st section*/
+.sec1{
+    background-image:url("https://image.freepik.com/free-photo/travel-bag-luggage-airport-terminal_62754-1381.jpg");
+    background-size: cover !important;
+    background-repeat: no-repeat;
+  
+}
+
+
+.bigTitle{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    color:darkblue;
+}
+
+.title1{
+    margin-left:40px;
+    font-size: 25px;
+    color:beige;
+    font-weight: bold;
+}
+
+#blocks{
+    margin:5%;
+    font-size: 20px;
+}
+
+.head{
+    font-weight: bold;
+}
+
+.list{
+    margin-left: 100px;
+    font-size: 20px;
+    margin-top:50px;
+    margin-bottom: 0px;
+}
+
+/*2nd section*/
+
+.title2{
+    text-align: center;
+    color:darkblue;
+    margin-top: 0%;
+}
+
+
+ .cont{
+    padding:4%;
+ }
+
+
+ #button{
+    color:grey;
+    border-color:grey;
+    margin:  3% 45%;
+}
+
+#button:hover{
+    color:beige;
+    border-color:beige;
+}
